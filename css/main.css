@@ -1,0 +1,113 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+*{
+	font-family: 'Open Sans';
+}
+
+.fondo1{
+	background-image: url("../image/header-image.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 750px;
+	margin-bottom: 5%;
+}
+
+#logo{
+	width:30%;
+}
+
+
+img{
+	width: 100%;
+}
+
+p,a,h3,nav{
+	color: white;
+}
+
+
+h2{
+	color:#FF8000;
+	}
+
+input{
+	width: 100%;
+	background-color:#2d2735; 
+	border: 2em solid black;
+	padding:3%;
+}
+
+i{
+	color: white;
+	padding-left: 4%;
+}
+
+.back1{
+	background-color:#2d2735;
+}
+.back2{
+	background-color:black;
+}
+
+.blanco{
+	background-color: #fff;
+	color: #000;
+}
+
+.morado{
+	background-color:#2d2735;
+}
+
+.caja1{
+	width: 60%;
+	height: 200px;
+	margin-top: 30%;
+	margin-left:20%;
+}
+
+.spring{
+	font-size: 5em;
+	font-style: italic;
+	padding-bottom: 5%;
+	padding-top: 7%;	
+}
+
+.about{
+	font-style: italic;
+}
+
+.pb-10{
+	padding-bottom: 15%;
+}
+
+.pb-7{
+	padding-bottom: 7%;
+}
+.pt-2{
+	padding-top: 2%;
+}
+
+.pt-4{
+	padding-top: 4%;
+}
+
+.pt-1{
+	padding-top: 1%;
+}
+.pb-1{
+	padding-bottom: 1%;
+}
+
+.pl-2{
+	padding-left: 2%;
+}

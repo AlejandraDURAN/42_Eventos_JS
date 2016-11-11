@@ -14,8 +14,6 @@ $(document).ready(function(){
 
 	$('input').focus();
 
-
-
 	$('h2').on('mouseenter', function() {
 		$(this).addClass('morado');
 	});
@@ -26,5 +24,24 @@ $(document).ready(function(){
 
 	$('h2').focus();
 
+	$(".florecillas").click(function() {
+    $(this).css("-webkit-filter","grayscale(100%)");
 
-});
+    });
+
+    $('.slide').mouseenter(function() {
+		$('.slide').slideToggle('slow');
+	});
+
+
+    $(".amanda").mouseenter(function(){
+    $(this).css("-webkit-filter","blur(5px)");
+ 	 });
+  
+	$(".amanda").mouseleave(function(){
+     $(this).css("-webkit-filter","blur(0px)");
+  	});
+
+    
+    
+  });
